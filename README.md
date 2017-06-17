@@ -1,7 +1,16 @@
-Created to predictions about abalone given various physical attributes. Prediction of the age is done
-with linear regression, and prediction of the sex with logistic regression. 
-The dataset was downloaded from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/).
+Abalones, are sea snails (marine gastropod mollusks) that are native to many
+areas. Tradiontionally, the age of abalone can be determine by cutting it open,
+staining the inside, and counting its rings under a microscope. To determine age
+of abalone, one must turn a live abalone upside down and wait for it to expose its
+reproductive organ. These are very tedious and time consuming processes. This
+project is a classification and prediction problem that aims to predict the age and
+sex of abaline based on their physical characteristics. This was done using linear
+regression and sex using logistic regression. For the linear regresssion, ordinary
+least squares, ridge, bayesian ridge, and elastic net models are used. The results
+show that linear regression is an effective way to predict age, whereas logistic
+regression to predict sex is not.
 
+The dataset was downloaded from the UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/).
 The data file contains the following columns:
 
     Name		Data Type	Meas.	Description1
